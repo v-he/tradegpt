@@ -1,28 +1,49 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
-from typing import Tuple 
+
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
-model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert").to(device)
-labels = ["positive", "negative", "neutral"]
+MODEL_NAME = "mrm8488/deberta-v3-ft-financial-news-sentiment-analysis"
+
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME).to(device)
+
+# According to the model card, labels are:
+# 0 -> negative, 1 -> neutral, 2 -> positive
+labels = ["negative", "neutral", "positive"]
+
 
 def estimate_sentiment(news):
-    if news:
-        tokens = tokenizer(news, return_tensors="pt", padding=True).to(device)
+    """Estimate (probability, sentiment) from a list of news headlines."""
+    if not news:
+        return 0.0, "neutral"
 
-        result = model(tokens["input_ids"], attention_mask=tokens["attention_mask"])[
-            "logits"
-        ]
-        result = torch.nn.functional.softmax(torch.sum(result, 0), dim=-1)
-        probability = result[torch.argmax(result)]
-        sentiment = labels[torch.argmax(result)]
-        return probability, sentiment
-    else:
-        return 0, labels[-1]
+    # Tokenize and move to device
+    tokens = tokenizer(
+        news,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+    ).to(device)
+
+    # Forward pass
+    outputs = model(**tokens)
+    logits = outputs.logits
+
+    # Aggregate across headlines, then softmax
+    logits_sum = torch.sum(logits, dim=0)
+    probs = torch.nn.functional.softmax(logits_sum, dim=-1)
+
+    idx = torch.argmax(probs)
+    probability = float(probs[idx].item())
+    sentiment = labels[int(idx)]
+
+    return probability, sentiment
 
 
 if __name__ == "__main__":
-    tensor, sentiment = estimate_sentiment(['markets responded negatively to the news!','traders were displeased!'])
+    tensor, sentiment = estimate_sentiment(
+        ["markets responded negatively to the news!", "traders were displeased!"]
+    )
     print(tensor, sentiment)
     print(torch.cuda.is_available())

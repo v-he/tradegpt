@@ -1,0 +1,664 @@
+2026-03-17 18:11:54,511: root: INFO: MLTrader : Executing the initialize lifecycle method
+2026-03-17 18:11:55,370: root: INFO: Current backtesting datetime 2026-01-02 08:30:00-05:00
+2026-03-17 18:11:55,371: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:11:55,373: root: INFO: Current backtesting datetime 2026-01-02 09:30:00-05:00
+2026-03-17 18:11:55,373: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:11:55,374: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:55[0m
+2026-03-17 18:11:55,374: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:55,732: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:55,733: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:56,166: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:56,540: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:56,540: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:56,540: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:56[0m
+2026-03-17 18:11:56,541: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:56,542: root: INFO: Current backtesting datetime 2026-01-02 16:00:00-05:00
+2026-03-17 18:11:56,542: root: INFO: Current backtesting datetime 2026-01-03 09:30:00-05:00
+2026-03-17 18:11:56,543: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:11:56,544: root: INFO: Current backtesting datetime 2026-01-03 09:29:00-05:00
+2026-03-17 18:11:56,545: root: INFO: Current backtesting datetime 2026-01-03 09:29:00-05:00
+2026-03-17 18:11:56,545: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:11:56,545: root: INFO: Current backtesting datetime 2026-01-05 08:30:00-05:00
+2026-03-17 18:11:56,546: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:11:56,547: root: INFO: Current backtesting datetime 2026-01-05 09:30:00-05:00
+2026-03-17 18:11:56,547: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:11:56,548: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:56[0m
+2026-03-17 18:11:56,548: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:56,549: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:56,550: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:56,946: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:56,950: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:56,950: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:56,950: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:56[0m
+2026-03-17 18:11:56,951: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:56,952: root: INFO: Current backtesting datetime 2026-01-05 16:00:00-05:00
+2026-03-17 18:11:56,952: root: INFO: Current backtesting datetime 2026-01-06 09:30:00-05:00
+2026-03-17 18:11:56,953: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:56[0m
+2026-03-17 18:11:56,953: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:56,954: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:56,955: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:57,343: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:57,348: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:57,348: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:57,349: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:57[0m
+2026-03-17 18:11:57,349: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:57,350: root: INFO: Current backtesting datetime 2026-01-06 16:00:00-05:00
+2026-03-17 18:11:57,350: root: INFO: Current backtesting datetime 2026-01-07 09:30:00-05:00
+2026-03-17 18:11:57,351: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:57[0m
+2026-03-17 18:11:57,351: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:57,353: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:57,353: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:57,763: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:57,770: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:57,770: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:57,770: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:57[0m
+2026-03-17 18:11:57,771: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:57,772: root: INFO: Current backtesting datetime 2026-01-07 16:00:00-05:00
+2026-03-17 18:11:57,772: root: INFO: Current backtesting datetime 2026-01-08 09:30:00-05:00
+2026-03-17 18:11:57,773: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:57[0m
+2026-03-17 18:11:57,773: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:57,774: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:57,775: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:58,156: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:58,161: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:58,161: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:58,162: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:58[0m
+2026-03-17 18:11:58,163: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:58,164: root: INFO: Current backtesting datetime 2026-01-08 16:00:00-05:00
+2026-03-17 18:11:58,164: root: INFO: Current backtesting datetime 2026-01-09 09:30:00-05:00
+2026-03-17 18:11:58,164: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:58[0m
+2026-03-17 18:11:58,165: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:58,166: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:58,167: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:58,528: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:58,534: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:58,535: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:58,535: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:58[0m
+2026-03-17 18:11:58,536: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:58,537: root: INFO: Current backtesting datetime 2026-01-09 16:00:00-05:00
+2026-03-17 18:11:58,537: root: INFO: Current backtesting datetime 2026-01-10 09:30:00-05:00
+2026-03-17 18:11:58,537: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:11:58,538: root: INFO: Current backtesting datetime 2026-01-10 09:29:00-05:00
+2026-03-17 18:11:58,539: root: INFO: Current backtesting datetime 2026-01-10 09:29:00-05:00
+2026-03-17 18:11:58,539: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:11:58,540: root: INFO: Current backtesting datetime 2026-01-12 08:30:00-05:00
+2026-03-17 18:11:58,540: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:11:58,541: root: INFO: Current backtesting datetime 2026-01-12 09:30:00-05:00
+2026-03-17 18:11:58,541: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:11:58,542: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:58[0m
+2026-03-17 18:11:58,542: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:58,543: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:58,544: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:59,356: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:59,360: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:59,360: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:59,360: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:59[0m
+2026-03-17 18:11:59,361: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:59,362: root: INFO: Current backtesting datetime 2026-01-12 16:00:00-05:00
+2026-03-17 18:11:59,362: root: INFO: Current backtesting datetime 2026-01-13 09:30:00-05:00
+2026-03-17 18:11:59,363: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:59[0m
+2026-03-17 18:11:59,363: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:59,364: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:59,365: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:11:59,752: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:11:59,756: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:11:59,756: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:11:59,757: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:11:59[0m
+2026-03-17 18:11:59,758: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:11:59,758: root: INFO: Current backtesting datetime 2026-01-13 16:00:00-05:00
+2026-03-17 18:11:59,758: root: INFO: Current backtesting datetime 2026-01-14 09:30:00-05:00
+2026-03-17 18:11:59,759: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:11:59[0m
+2026-03-17 18:11:59,759: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:11:59,760: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:11:59,760: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:00,139: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:00,143: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:00,143: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:00,144: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,144: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:00,145: root: INFO: Current backtesting datetime 2026-01-14 16:00:00-05:00
+2026-03-17 18:12:00,145: root: INFO: Current backtesting datetime 2026-01-15 09:30:00-05:00
+2026-03-17 18:12:00,146: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,146: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:00,147: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:00,148: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:00,532: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:00,537: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:00,537: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:00,537: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,539: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:00,539: root: INFO: Current backtesting datetime 2026-01-15 16:00:00-05:00
+2026-03-17 18:12:00,540: root: INFO: Current backtesting datetime 2026-01-16 09:30:00-05:00
+2026-03-17 18:12:00,540: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,540: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:00,541: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:00,542: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:00,976: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:00,980: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:00,980: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:00,981: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,981: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:00,982: root: INFO: Current backtesting datetime 2026-01-16 16:00:00-05:00
+2026-03-17 18:12:00,982: root: INFO: Current backtesting datetime 2026-01-17 09:30:00-05:00
+2026-03-17 18:12:00,983: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:00,984: root: INFO: Current backtesting datetime 2026-01-17 09:29:00-05:00
+2026-03-17 18:12:00,985: root: INFO: Current backtesting datetime 2026-01-17 09:29:00-05:00
+2026-03-17 18:12:00,985: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:00,985: root: INFO: Current backtesting datetime 2026-01-20 08:30:00-05:00
+2026-03-17 18:12:00,986: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:00,986: root: INFO: Current backtesting datetime 2026-01-20 09:30:00-05:00
+2026-03-17 18:12:00,986: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:00,987: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:00[0m
+2026-03-17 18:12:00,988: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:00,988: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:00,990: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:01,368: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:01,372: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:01,372: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:01,373: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:01[0m
+2026-03-17 18:12:01,373: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:01,374: root: INFO: Current backtesting datetime 2026-01-20 16:00:00-05:00
+2026-03-17 18:12:01,374: root: INFO: Current backtesting datetime 2026-01-21 09:30:00-05:00
+2026-03-17 18:12:01,374: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:01[0m
+2026-03-17 18:12:01,375: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:01,376: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:01,376: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:01,761: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:01,765: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:01,765: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:01,765: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:01[0m
+2026-03-17 18:12:01,766: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:01,768: root: INFO: Current backtesting datetime 2026-01-21 16:00:00-05:00
+2026-03-17 18:12:01,768: root: INFO: Current backtesting datetime 2026-01-22 09:30:00-05:00
+2026-03-17 18:12:01,768: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:01[0m
+2026-03-17 18:12:01,769: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:01,770: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:01,770: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:02,145: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:02,149: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:02,150: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:02,150: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,151: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:02,151: root: INFO: Current backtesting datetime 2026-01-22 16:00:00-05:00
+2026-03-17 18:12:02,152: root: INFO: Current backtesting datetime 2026-01-23 09:30:00-05:00
+2026-03-17 18:12:02,152: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,152: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:02,153: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:02,154: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:02,570: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:02,574: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:02,575: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:02,575: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,576: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:02,576: root: INFO: Current backtesting datetime 2026-01-23 16:00:00-05:00
+2026-03-17 18:12:02,577: root: INFO: Current backtesting datetime 2026-01-24 09:30:00-05:00
+2026-03-17 18:12:02,577: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:02,579: root: INFO: Current backtesting datetime 2026-01-24 09:29:00-05:00
+2026-03-17 18:12:02,580: root: INFO: Current backtesting datetime 2026-01-24 09:29:00-05:00
+2026-03-17 18:12:02,580: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:02,580: root: INFO: Current backtesting datetime 2026-01-26 08:30:00-05:00
+2026-03-17 18:12:02,581: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:02,581: root: INFO: Current backtesting datetime 2026-01-26 09:30:00-05:00
+2026-03-17 18:12:02,581: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:02,583: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,583: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:02,584: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:02,585: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:02,991: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:02,996: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:02,996: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:02,997: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,998: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:02,998: root: INFO: Current backtesting datetime 2026-01-26 16:00:00-05:00
+2026-03-17 18:12:02,999: root: INFO: Current backtesting datetime 2026-01-27 09:30:00-05:00
+2026-03-17 18:12:02,999: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:02[0m
+2026-03-17 18:12:02,999: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:03,000: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:03,001: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:03,618: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:03,622: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:03,622: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:03,622: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:03[0m
+2026-03-17 18:12:03,623: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:03,624: root: INFO: Current backtesting datetime 2026-01-27 16:00:00-05:00
+2026-03-17 18:12:03,624: root: INFO: Current backtesting datetime 2026-01-28 09:30:00-05:00
+2026-03-17 18:12:03,625: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:03[0m
+2026-03-17 18:12:03,625: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:03,626: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:03,627: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:03,959: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:03,964: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:03,964: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:03,964: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:03[0m
+2026-03-17 18:12:03,965: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:03,966: root: INFO: Current backtesting datetime 2026-01-28 16:00:00-05:00
+2026-03-17 18:12:03,966: root: INFO: Current backtesting datetime 2026-01-29 09:30:00-05:00
+2026-03-17 18:12:03,966: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:03[0m
+2026-03-17 18:12:03,966: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:03,967: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:03,968: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:04,444: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:04,448: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:04,448: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:04,448: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:04[0m
+2026-03-17 18:12:04,449: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:04,450: root: INFO: Current backtesting datetime 2026-01-29 16:00:00-05:00
+2026-03-17 18:12:04,450: root: INFO: Current backtesting datetime 2026-01-30 09:30:00-05:00
+2026-03-17 18:12:04,451: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:04[0m
+2026-03-17 18:12:04,451: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:04,452: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:04,452: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:04,792: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:04,796: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:04,797: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:04,797: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:04[0m
+2026-03-17 18:12:04,798: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:04,798: root: INFO: Current backtesting datetime 2026-01-30 16:00:00-05:00
+2026-03-17 18:12:04,798: root: INFO: Current backtesting datetime 2026-01-31 09:30:00-05:00
+2026-03-17 18:12:04,799: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:04,800: root: INFO: Current backtesting datetime 2026-01-31 09:29:00-05:00
+2026-03-17 18:12:04,801: root: INFO: Current backtesting datetime 2026-01-31 09:29:00-05:00
+2026-03-17 18:12:04,801: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:04,802: root: INFO: Current backtesting datetime 2026-02-02 08:30:00-05:00
+2026-03-17 18:12:04,803: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:04,804: root: INFO: Current backtesting datetime 2026-02-02 09:30:00-05:00
+2026-03-17 18:12:04,804: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:04,805: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:04[0m
+2026-03-17 18:12:04,805: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:04,807: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:04,808: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:05,167: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:05,172: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:05,173: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:05,173: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,174: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:05,175: root: INFO: Current backtesting datetime 2026-02-02 16:00:00-05:00
+2026-03-17 18:12:05,175: root: INFO: Current backtesting datetime 2026-02-03 09:30:00-05:00
+2026-03-17 18:12:05,175: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,175: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:05,177: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:05,177: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:05,539: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:05,543: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:05,543: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:05,543: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,545: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:05,546: root: INFO: Current backtesting datetime 2026-02-03 16:00:00-05:00
+2026-03-17 18:12:05,546: root: INFO: Current backtesting datetime 2026-02-04 09:30:00-05:00
+2026-03-17 18:12:05,547: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,547: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:05,548: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:05,549: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:05,918: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:05,923: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:05,923: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:05,923: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,924: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:05,925: root: INFO: Current backtesting datetime 2026-02-04 16:00:00-05:00
+2026-03-17 18:12:05,925: root: INFO: Current backtesting datetime 2026-02-05 09:30:00-05:00
+2026-03-17 18:12:05,925: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:05[0m
+2026-03-17 18:12:05,925: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:05,926: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:05,926: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:06,284: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:06,289: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:06,289: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:06,289: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:06[0m
+2026-03-17 18:12:06,290: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:06,291: root: INFO: Current backtesting datetime 2026-02-05 16:00:00-05:00
+2026-03-17 18:12:06,291: root: INFO: Current backtesting datetime 2026-02-06 09:30:00-05:00
+2026-03-17 18:12:06,292: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:06[0m
+2026-03-17 18:12:06,292: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:06,293: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:06,294: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:06,709: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:06,713: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:06,713: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:06,714: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:06[0m
+2026-03-17 18:12:06,714: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:06,715: root: INFO: Current backtesting datetime 2026-02-06 16:00:00-05:00
+2026-03-17 18:12:06,715: root: INFO: Current backtesting datetime 2026-02-07 09:30:00-05:00
+2026-03-17 18:12:06,715: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:06,716: root: INFO: Current backtesting datetime 2026-02-07 09:29:00-05:00
+2026-03-17 18:12:06,717: root: INFO: Current backtesting datetime 2026-02-07 09:29:00-05:00
+2026-03-17 18:12:06,717: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:06,718: root: INFO: Current backtesting datetime 2026-02-09 08:30:00-05:00
+2026-03-17 18:12:06,718: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:06,719: root: INFO: Current backtesting datetime 2026-02-09 09:30:00-05:00
+2026-03-17 18:12:06,719: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:06,719: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:06[0m
+2026-03-17 18:12:06,720: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:06,721: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:06,721: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:07,108: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:07,112: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:07,113: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:07,113: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,114: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:07,115: root: INFO: Current backtesting datetime 2026-02-09 16:00:00-05:00
+2026-03-17 18:12:07,115: root: INFO: Current backtesting datetime 2026-02-10 09:30:00-05:00
+2026-03-17 18:12:07,116: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,116: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:07,117: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:07,117: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:07,499: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:07,503: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:07,504: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:07,504: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,505: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:07,505: root: INFO: Current backtesting datetime 2026-02-10 16:00:00-05:00
+2026-03-17 18:12:07,505: root: INFO: Current backtesting datetime 2026-02-11 09:30:00-05:00
+2026-03-17 18:12:07,506: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,506: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:07,507: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:07,508: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:07,878: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:07,883: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:07,884: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:07,884: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,885: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:07,886: root: INFO: Current backtesting datetime 2026-02-11 16:00:00-05:00
+2026-03-17 18:12:07,887: root: INFO: Current backtesting datetime 2026-02-12 09:30:00-05:00
+2026-03-17 18:12:07,887: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:07[0m
+2026-03-17 18:12:07,887: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:07,889: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:07,889: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:08,298: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:08,302: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:08,302: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:08,302: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:08[0m
+2026-03-17 18:12:08,304: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:08,305: root: INFO: Current backtesting datetime 2026-02-12 16:00:00-05:00
+2026-03-17 18:12:08,306: root: INFO: Current backtesting datetime 2026-02-13 09:30:00-05:00
+2026-03-17 18:12:08,306: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:08[0m
+2026-03-17 18:12:08,306: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:08,307: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:08,308: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:08,684: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:08,690: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:08,691: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:08,691: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:08[0m
+2026-03-17 18:12:08,692: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:08,693: root: INFO: Current backtesting datetime 2026-02-13 16:00:00-05:00
+2026-03-17 18:12:08,694: root: INFO: Current backtesting datetime 2026-02-14 09:30:00-05:00
+2026-03-17 18:12:08,694: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:08,695: root: INFO: Current backtesting datetime 2026-02-14 09:29:00-05:00
+2026-03-17 18:12:08,696: root: INFO: Current backtesting datetime 2026-02-14 09:29:00-05:00
+2026-03-17 18:12:08,696: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:08,697: root: INFO: Current backtesting datetime 2026-02-17 08:30:00-05:00
+2026-03-17 18:12:08,697: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:08,698: root: INFO: Current backtesting datetime 2026-02-17 09:30:00-05:00
+2026-03-17 18:12:08,698: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:08,699: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:08[0m
+2026-03-17 18:12:08,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:08,700: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:08,701: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:09,400: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:09,404: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:09,404: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:09,404: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:09[0m
+2026-03-17 18:12:09,405: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:09,406: root: INFO: Current backtesting datetime 2026-02-17 16:00:00-05:00
+2026-03-17 18:12:09,407: root: INFO: Current backtesting datetime 2026-02-18 09:30:00-05:00
+2026-03-17 18:12:09,407: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:09[0m
+2026-03-17 18:12:09,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:09,409: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:09,409: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:09,822: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:09,829: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:09,829: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:09,829: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:09[0m
+2026-03-17 18:12:09,831: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:09,831: root: INFO: Current backtesting datetime 2026-02-18 16:00:00-05:00
+2026-03-17 18:12:09,832: root: INFO: Current backtesting datetime 2026-02-19 09:30:00-05:00
+2026-03-17 18:12:09,833: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:09[0m
+2026-03-17 18:12:09,833: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:09,834: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:09,835: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:10,212: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:10,218: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:10,218: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:10,218: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:10[0m
+2026-03-17 18:12:10,219: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:10,220: root: INFO: Current backtesting datetime 2026-02-19 16:00:00-05:00
+2026-03-17 18:12:10,220: root: INFO: Current backtesting datetime 2026-02-20 09:30:00-05:00
+2026-03-17 18:12:10,220: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:10[0m
+2026-03-17 18:12:10,221: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:10,222: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:10,222: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:10,587: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:10,594: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:10,594: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:10,594: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:10[0m
+2026-03-17 18:12:10,595: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:10,596: root: INFO: Current backtesting datetime 2026-02-20 16:00:00-05:00
+2026-03-17 18:12:10,596: root: INFO: Current backtesting datetime 2026-02-21 09:30:00-05:00
+2026-03-17 18:12:10,597: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:10,598: root: INFO: Current backtesting datetime 2026-02-21 09:29:00-05:00
+2026-03-17 18:12:10,598: root: INFO: Current backtesting datetime 2026-02-21 09:29:00-05:00
+2026-03-17 18:12:10,598: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:10,599: root: INFO: Current backtesting datetime 2026-02-23 08:30:00-05:00
+2026-03-17 18:12:10,599: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:10,600: root: INFO: Current backtesting datetime 2026-02-23 09:30:00-05:00
+2026-03-17 18:12:10,600: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:10,601: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:10[0m
+2026-03-17 18:12:10,601: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:10,602: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:10,602: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:11,187: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:11,192: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:11,192: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:11,192: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:11[0m
+2026-03-17 18:12:11,193: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:11,194: root: INFO: Current backtesting datetime 2026-02-23 16:00:00-05:00
+2026-03-17 18:12:11,194: root: INFO: Current backtesting datetime 2026-02-24 09:30:00-05:00
+2026-03-17 18:12:11,195: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:11[0m
+2026-03-17 18:12:11,195: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:11,196: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:11,196: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:11,652: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:11,658: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:11,658: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:11,659: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:11[0m
+2026-03-17 18:12:11,660: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:11,661: root: INFO: Current backtesting datetime 2026-02-24 16:00:00-05:00
+2026-03-17 18:12:11,661: root: INFO: Current backtesting datetime 2026-02-25 09:30:00-05:00
+2026-03-17 18:12:11,661: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:11[0m
+2026-03-17 18:12:11,661: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:11,662: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:11,663: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:12,061: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:12,066: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:12,066: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:12,066: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,067: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:12,068: root: INFO: Current backtesting datetime 2026-02-25 16:00:00-05:00
+2026-03-17 18:12:12,068: root: INFO: Current backtesting datetime 2026-02-26 09:30:00-05:00
+2026-03-17 18:12:12,068: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,069: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:12,070: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:12,070: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:12,432: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:12,436: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:12,436: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:12,437: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,438: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:12,439: root: INFO: Current backtesting datetime 2026-02-26 16:00:00-05:00
+2026-03-17 18:12:12,439: root: INFO: Current backtesting datetime 2026-02-27 09:30:00-05:00
+2026-03-17 18:12:12,439: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,439: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:12,441: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:12,441: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:12,819: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:12,823: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:12,824: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:12,824: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,825: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:12,825: root: INFO: Current backtesting datetime 2026-02-27 16:00:00-05:00
+2026-03-17 18:12:12,825: root: INFO: Current backtesting datetime 2026-02-28 09:30:00-05:00
+2026-03-17 18:12:12,825: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:12,827: root: INFO: Current backtesting datetime 2026-02-28 09:29:00-05:00
+2026-03-17 18:12:12,827: root: INFO: Current backtesting datetime 2026-02-28 09:29:00-05:00
+2026-03-17 18:12:12,827: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:12,829: root: INFO: Current backtesting datetime 2026-03-02 08:30:00-05:00
+2026-03-17 18:12:12,829: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:12,830: root: INFO: Current backtesting datetime 2026-03-02 09:30:00-05:00
+2026-03-17 18:12:12,830: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:12,831: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:12[0m
+2026-03-17 18:12:12,831: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:12,832: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:12,832: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:13,172: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:13,176: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:13,176: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:13,177: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,178: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:13,178: root: INFO: Current backtesting datetime 2026-03-02 16:00:00-05:00
+2026-03-17 18:12:13,178: root: INFO: Current backtesting datetime 2026-03-03 09:30:00-05:00
+2026-03-17 18:12:13,179: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,179: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:13,180: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:13,181: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:13,515: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:13,519: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:13,519: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:13,519: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,520: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:13,521: root: INFO: Current backtesting datetime 2026-03-03 16:00:00-05:00
+2026-03-17 18:12:13,521: root: INFO: Current backtesting datetime 2026-03-04 09:30:00-05:00
+2026-03-17 18:12:13,522: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:13,523: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:13,523: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:13,883: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:13,887: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:13,887: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:13,887: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,888: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:13,889: root: INFO: Current backtesting datetime 2026-03-04 16:00:00-05:00
+2026-03-17 18:12:13,889: root: INFO: Current backtesting datetime 2026-03-05 09:30:00-05:00
+2026-03-17 18:12:13,890: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:13[0m
+2026-03-17 18:12:13,890: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:13,891: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:13,892: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:14,286: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:14,292: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:14,293: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:14,293: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:14[0m
+2026-03-17 18:12:14,294: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:14,295: root: INFO: Current backtesting datetime 2026-03-05 16:00:00-05:00
+2026-03-17 18:12:14,296: root: INFO: Current backtesting datetime 2026-03-06 09:30:00-05:00
+2026-03-17 18:12:14,297: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:14[0m
+2026-03-17 18:12:14,297: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:14,298: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:14,298: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:14,690: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:14,695: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:14,695: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:14,695: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:14[0m
+2026-03-17 18:12:14,696: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:14,697: root: INFO: Current backtesting datetime 2026-03-06 16:00:00-05:00
+2026-03-17 18:12:14,697: root: INFO: Current backtesting datetime 2026-03-07 09:30:00-05:00
+2026-03-17 18:12:14,699: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:14,699: root: INFO: Current backtesting datetime 2026-03-07 09:29:00-05:00
+2026-03-17 18:12:14,700: root: INFO: Current backtesting datetime 2026-03-07 09:29:00-05:00
+2026-03-17 18:12:14,700: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:14,700: root: INFO: Current backtesting datetime 2026-03-09 07:30:00-05:00
+2026-03-17 18:12:14,702: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:14,702: root: INFO: Current backtesting datetime 2026-03-09 08:30:00-05:00
+2026-03-17 18:12:14,703: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:14,703: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:14[0m
+2026-03-17 18:12:14,703: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:14,704: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:14,704: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:15,089: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:15,093: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:15,093: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:15,094: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,095: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:15,096: root: INFO: Current backtesting datetime 2026-03-09 15:00:00-05:00
+2026-03-17 18:12:15,096: root: INFO: Current backtesting datetime 2026-03-10 08:30:00-05:00
+2026-03-17 18:12:15,096: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,096: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:15,097: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:15,098: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:15,611: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:15,617: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:15,617: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:15,617: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,618: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:15,619: root: INFO: Current backtesting datetime 2026-03-10 15:00:00-05:00
+2026-03-17 18:12:15,619: root: INFO: Current backtesting datetime 2026-03-11 08:30:00-05:00
+2026-03-17 18:12:15,620: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,620: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:15,621: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:15,622: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:15,972: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:15,979: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:15,979: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:15,980: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,981: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:15,982: root: INFO: Current backtesting datetime 2026-03-11 15:00:00-05:00
+2026-03-17 18:12:15,982: root: INFO: Current backtesting datetime 2026-03-12 08:30:00-05:00
+2026-03-17 18:12:15,983: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:15[0m
+2026-03-17 18:12:15,983: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:15,984: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:15,984: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:16,372: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:16,377: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:16,377: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:16,377: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:16[0m
+2026-03-17 18:12:16,378: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:16,379: root: INFO: Current backtesting datetime 2026-03-12 15:00:00-05:00
+2026-03-17 18:12:16,379: root: INFO: Current backtesting datetime 2026-03-13 08:30:00-05:00
+2026-03-17 18:12:16,380: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:16[0m
+2026-03-17 18:12:16,380: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:16,381: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:16,382: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:16,747: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:16,751: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:16,752: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:16,752: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:16[0m
+2026-03-17 18:12:16,753: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:16,754: root: INFO: Current backtesting datetime 2026-03-13 15:00:00-05:00
+2026-03-17 18:12:16,754: root: INFO: Current backtesting datetime 2026-03-14 08:30:00-05:00
+2026-03-17 18:12:16,755: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-17 18:12:16,756: root: INFO: Current backtesting datetime 2026-03-14 08:29:00-05:00
+2026-03-17 18:12:16,757: root: INFO: Current backtesting datetime 2026-03-14 08:29:00-05:00
+2026-03-17 18:12:16,757: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:16,758: root: INFO: Current backtesting datetime 2026-03-16 07:30:00-05:00
+2026-03-17 18:12:16,759: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-17 18:12:16,759: root: INFO: Current backtesting datetime 2026-03-16 08:30:00-05:00
+2026-03-17 18:12:16,760: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-17 18:12:16,761: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-17 18:12:16[0m
+2026-03-17 18:12:16,761: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2026-03-17 18:12:16,762: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:16,763: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:17,464: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:17,468: root: ERROR: YAHOO did not return data for symbol SPY. Make sure this symbol is valid.
+2026-03-17 18:12:17,468: __main__: WARNING: No last price available for SPY (data provider returned None)
+2026-03-17 18:12:17,468: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-17 18:12:17[0m
+2026-03-17 18:12:17,469: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-17 18:12:17,470: root: INFO: Current backtesting datetime 2026-03-16 15:00:00-05:00
+2026-03-17 18:12:17,470: root: INFO: Current backtesting datetime 2026-03-17 08:30:00-05:00
+2026-03-17 18:12:17,471: root: INFO: Current backtesting datetime 2026-03-17 14:59:00-05:00
+2026-03-17 18:12:17,471: root: INFO: MLTrader : Executing the before_market_closes lifecycle method
+2026-03-17 18:12:17,472: root: INFO: Current backtesting datetime 2026-03-17 15:00:00-05:00
+2026-03-17 18:12:17,472: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-17 18:12:17,472: root: INFO: MLTrader : Executing the on_strategy_end lifecycle method
+2026-03-17 18:12:17,484: yfinance: ERROR: Failed to get ticker 'SPY' reason: Expecting value: line 1 column 1 (char 0)
+2026-03-17 18:12:17,485: yfinance: ERROR: SPY: No timezone found, symbol may be delisted
+2026-03-17 18:12:17,862: yfinance: ERROR: 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/SPY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=SPY&crumb=Edge%3A+Too+Many+Requests
+2026-03-17 18:12:17,865: __main__: ERROR: Skipping benchmark stats/tearsheet due to upstream data error.
+Traceback (most recent call last):
+  File "C:\Users\victo\GitRepos\tradegpt\tradingbot.py", line 161, in _dump_stats
+    super()._dump_stats()
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 574, in _dump_stats
+    self._benchmark_returns_df = get_symbol_returns(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\tools\indicators.py", line 184, in get_symbol_returns
+    returns_df = returns_df.loc[(returns_df.index.date >= start.date()) & (returns_df.index.date <= end.date())]
+AttributeError: 'Index' object has no attribute 'date'
+2026-03-17 18:12:17,868: root: INFO: Backtesting finished
+2026-03-17 18:12:17,871: root: WARNING: Cannot plot returns because the benchmark returns are missing
+2026-03-17 18:12:17,970: root: ERROR: No data to create tearsheet, skipping
+2026-03-17 18:12:17,970: backtest_stats: INFO: Backtest took 0:00:23.460248 for a speed of 0.000

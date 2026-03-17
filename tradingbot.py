@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Optional, Tuple
 
 from alpaca_trade_api import REST
-from lumibot.backtesting import YahooDataBacktesting
+from lumibot.backtesting import PolygonDataBacktesting
 from lumibot.brokers import Alpaca
 from lumibot.strategies.strategy import Strategy
 from lumibot.traders import Trader
@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 API_KEY = os.environ.get("ALPACA_API_KEY")
 API_SECRET = os.environ.get("ALPACA_API_SECRET")
 BASE_URL = os.environ.get("ALPACA_BASE_URL", "https://paper-api.alpaca.markets/v2")
+POLYGON_API_KEY = os.environ.get("POLYGON_API_KEY")
 
 if not API_KEY or not API_SECRET:
     logger.warning("ALPACA_API_KEY or ALPACA_API_SECRET is not set in environment variables.")
@@ -35,11 +36,11 @@ ALPACA_CREDS = {
 }
 
 
-TAKE_PROFIT_LONG = 1.20
-STOP_LOSS_LONG = 0.95
-TAKE_PROFIT_SHORT = 0.80
-STOP_LOSS_SHORT = 1.05
-MIN_SENTIMENT_PROB = 0.999
+TAKE_PROFIT_LONG = 1.30
+STOP_LOSS_LONG = 0.90
+TAKE_PROFIT_SHORT = 0.70
+STOP_LOSS_SHORT = 1.10
+MIN_SENTIMENT_PROB = 0.95
 LOOKBACK_DAYS = 3
 SLEEPTIME = "24H"
 
@@ -47,7 +48,7 @@ SLEEPTIME = "24H"
 class MLTrader(Strategy):
     """Machine-learning powered sentiment strategy using Alpaca news and FinBERT."""
 
-    def initialize(self, symbol: str = "SPY", cash_at_risk: float = 0.5) -> None:
+    def initialize(self, symbol: str = "AAPL", cash_at_risk: float = 0.8) -> None:
         self.symbol = symbol
         self.sleeptime = SLEEPTIME
         self.last_trade: Optional[str] = None
@@ -57,7 +58,17 @@ class MLTrader(Strategy):
     def position_sizing(self) -> Tuple[float, float, int]:
         """Return (cash, last_price, quantity) based on current risk settings."""
         cash = float(self.get_cash())
-        last_price = float(self.get_last_price(self.symbol))
+        try:
+            raw_last_price = self.get_last_price(self.symbol)
+        except Exception:
+            logger.exception("Failed to fetch last price for %s", self.symbol)
+            return cash, 0.0, 0
+
+        if raw_last_price is None:
+            logger.warning("No last price available for %s (data provider returned None)", self.symbol)
+            return cash, 0.0, 0
+
+        last_price = float(raw_last_price)
 
         if last_price <= 0 or cash <= 0:
             return cash, last_price, 0
@@ -92,6 +103,8 @@ class MLTrader(Strategy):
 
     def on_trading_iteration(self) -> None:
         cash, last_price, quantity = self.position_sizing()
+        if last_price <= 0 or quantity <= 0:
+            return
         sentiment_result = self.get_sentiment()
 
         if sentiment_result is None:
@@ -139,30 +152,42 @@ class MLTrader(Strategy):
         self.submit_order(order)
         self.last_trade = "sell"
 
+    # ------------------------------------------------------------------
+    # Stats / benchmark handling
+    # ------------------------------------------------------------------
+
+    def _dump_stats(self) -> None:  # type: ignore[override]
+        """Safely dump stats/tearsheet, skipping benchmark failures."""
+        try:
+            super()._dump_stats()
+        except Exception:
+            logger.exception("Skipping benchmark stats/tearsheet due to upstream data error.")
+
 
 def run_backtest() -> None:
     """Run a simple backtest for the MLTrader strategy."""
-    start_date = datetime(2025, 12, 29)
-    end_date = datetime(2025, 12, 31)
+    start_date = datetime(2026, 1, 1)
+    end_date = datetime(2026, 3, 17)
 
     broker = Alpaca(ALPACA_CREDS)
     strategy = MLTrader(
         name="mlstrat",
         broker=broker,
         parameters={
-            "symbol": "SPY",
+            "symbol": "AAPL",
             "cash_at_risk": 0.5,
         },
     )
 
     strategy.backtest(
-        YahooDataBacktesting,
+        PolygonDataBacktesting,
         start_date,
         end_date,
         parameters={
-            "symbol": "SPY",
+            "symbol": "AAPL",
             "cash_at_risk": 0.5,
         },
+        api_key=POLYGON_API_KEY,
     )
 
 
@@ -173,7 +198,7 @@ def run_live() -> None:
         name="mlstrat",
         broker=broker,
         parameters={
-            "symbol": "SPY",
+            "symbol": "AAPL",
             "cash_at_risk": 0.5,
         },
     )

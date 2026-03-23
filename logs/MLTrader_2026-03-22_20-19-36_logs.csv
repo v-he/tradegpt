@@ -1,0 +1,680 @@
+2026-03-22 20:19:37,290: root: INFO: MLTrader : Executing the initialize lifecycle method
+2026-03-22 20:19:38,165: root: INFO: Current backtesting datetime 2026-01-02 08:30:00-05:00
+2026-03-22 20:19:38,166: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:38,167: root: INFO: Current backtesting datetime 2026-01-02 09:30:00-05:00
+2026-03-22 20:19:38,167: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:38,168: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:38[0m
+2026-03-22 20:19:44,293: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:44,294: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:44,295: root: INFO: Current backtesting datetime 2026-01-02 16:00:00-05:00
+2026-03-22 20:19:44,296: root: INFO: Current backtesting datetime 2026-01-03 09:30:00-05:00
+2026-03-22 20:19:44,296: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:44,298: root: INFO: Current backtesting datetime 2026-01-03 09:29:00-05:00
+2026-03-22 20:19:44,299: root: INFO: Current backtesting datetime 2026-01-03 09:29:00-05:00
+2026-03-22 20:19:44,299: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:44,300: root: INFO: Current backtesting datetime 2026-01-05 08:30:00-05:00
+2026-03-22 20:19:44,300: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:44,301: root: INFO: Current backtesting datetime 2026-01-05 09:30:00-05:00
+2026-03-22 20:19:44,301: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:44,302: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:44,598: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:44,599: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:44,600: root: INFO: Current backtesting datetime 2026-01-05 16:00:00-05:00
+2026-03-22 20:19:44,600: root: INFO: Current backtesting datetime 2026-01-06 09:30:00-05:00
+2026-03-22 20:19:44,601: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:44,878: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:44,880: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:44,881: root: INFO: Current backtesting datetime 2026-01-06 16:00:00-05:00
+2026-03-22 20:19:44,881: root: INFO: Current backtesting datetime 2026-01-07 09:30:00-05:00
+2026-03-22 20:19:44,882: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:44[0m
+2026-03-22 20:19:45,196: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:45,197: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:45,198: root: INFO: Current backtesting datetime 2026-01-07 16:00:00-05:00
+2026-03-22 20:19:45,199: root: INFO: Current backtesting datetime 2026-01-08 09:30:00-05:00
+2026-03-22 20:19:45,199: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:45,469: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:45,470: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:45,471: root: INFO: Current backtesting datetime 2026-01-08 16:00:00-05:00
+2026-03-22 20:19:45,472: root: INFO: Current backtesting datetime 2026-01-09 09:30:00-05:00
+2026-03-22 20:19:45,473: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:45,956: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:45,957: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:45,958: root: INFO: Current backtesting datetime 2026-01-09 16:00:00-05:00
+2026-03-22 20:19:45,958: root: INFO: Current backtesting datetime 2026-01-10 09:30:00-05:00
+2026-03-22 20:19:45,959: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:45,961: root: INFO: Current backtesting datetime 2026-01-10 09:29:00-05:00
+2026-03-22 20:19:45,962: root: INFO: Current backtesting datetime 2026-01-10 09:29:00-05:00
+2026-03-22 20:19:45,962: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:45,963: root: INFO: Current backtesting datetime 2026-01-12 08:30:00-05:00
+2026-03-22 20:19:45,963: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:45,963: root: INFO: Current backtesting datetime 2026-01-12 09:30:00-05:00
+2026-03-22 20:19:45,964: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:45,964: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:45[0m
+2026-03-22 20:19:46,298: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:46[0m
+2026-03-22 20:19:46,299: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:46,300: root: INFO: Current backtesting datetime 2026-01-12 16:00:00-05:00
+2026-03-22 20:19:46,300: root: INFO: Current backtesting datetime 2026-01-13 09:30:00-05:00
+2026-03-22 20:19:46,301: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:46[0m
+2026-03-22 20:19:46,808: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:46[0m
+2026-03-22 20:19:46,809: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:46,810: root: INFO: Current backtesting datetime 2026-01-13 16:00:00-05:00
+2026-03-22 20:19:46,810: root: INFO: Current backtesting datetime 2026-01-14 09:30:00-05:00
+2026-03-22 20:19:46,811: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:46[0m
+2026-03-22 20:19:47,060: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,061: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:47,062: root: INFO: Current backtesting datetime 2026-01-14 16:00:00-05:00
+2026-03-22 20:19:47,062: root: INFO: Current backtesting datetime 2026-01-15 09:30:00-05:00
+2026-03-22 20:19:47,063: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,407: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,408: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:47,409: root: INFO: Current backtesting datetime 2026-01-15 16:00:00-05:00
+2026-03-22 20:19:47,409: root: INFO: Current backtesting datetime 2026-01-16 09:30:00-05:00
+2026-03-22 20:19:47,410: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,644: root: INFO: [32mNew market order of | 194 AAPL sell | at price $180.52999999999997 of class bracket with status unprocessed was submitted.[0m
+2026-03-22 20:19:47,650: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,650: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,657: root: INFO: market order of | 194 AAPL sell | at price $180.52999999999997 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:47,657: root: INFO: market order of | 194 AAPL sell | at price $180.52999999999997 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:47,657: root: INFO: [32mFilled Transaction: sell 194 of AAPL at 257.90000000 USD per share[0m
+2026-03-22 20:19:47,657: root: INFO: market order of | 194 AAPL sell | at price $180.52999999999997 of class bracket with status new was filled
+2026-03-22 20:19:47,660: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:47,661: root: INFO: Current backtesting datetime 2026-01-16 16:00:00-05:00
+2026-03-22 20:19:47,661: root: INFO: Current backtesting datetime 2026-01-17 09:30:00-05:00
+2026-03-22 20:19:47,663: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:47,663: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,667: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,670: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,673: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,676: root: INFO: Current backtesting datetime 2026-01-17 09:29:00-05:00
+2026-03-22 20:19:47,677: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,682: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,686: root: INFO: Current backtesting datetime 2026-01-17 09:29:00-05:00
+2026-03-22 20:19:47,686: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:47,686: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,690: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,695: root: INFO: Current backtesting datetime 2026-01-20 08:30:00-05:00
+2026-03-22 20:19:47,696: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:47,696: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,700: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,704: root: INFO: Current backtesting datetime 2026-01-20 09:30:00-05:00
+2026-03-22 20:19:47,704: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:47,705: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,853: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:47,854: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,857: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:47,860: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:47,861: root: INFO: Current backtesting datetime 2026-01-20 16:00:00-05:00
+2026-03-22 20:19:47,861: root: INFO: Current backtesting datetime 2026-01-21 09:30:00-05:00
+2026-03-22 20:19:47,862: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:47[0m
+2026-03-22 20:19:48,264: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:48,264: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,267: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,270: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:48,271: root: INFO: Current backtesting datetime 2026-01-21 16:00:00-05:00
+2026-03-22 20:19:48,271: root: INFO: Current backtesting datetime 2026-01-22 09:30:00-05:00
+2026-03-22 20:19:48,272: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:48,515: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:48,515: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,518: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,521: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:48,522: root: INFO: Current backtesting datetime 2026-01-22 16:00:00-05:00
+2026-03-22 20:19:48,522: root: INFO: Current backtesting datetime 2026-01-23 09:30:00-05:00
+2026-03-22 20:19:48,523: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:48,819: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:48,820: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,823: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,825: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:48,826: root: INFO: Current backtesting datetime 2026-01-23 16:00:00-05:00
+2026-03-22 20:19:48,826: root: INFO: Current backtesting datetime 2026-01-24 09:30:00-05:00
+2026-03-22 20:19:48,827: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:48,827: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,830: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,833: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,836: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,841: root: INFO: Current backtesting datetime 2026-01-24 09:29:00-05:00
+2026-03-22 20:19:48,842: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,845: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,849: root: INFO: Current backtesting datetime 2026-01-24 09:29:00-05:00
+2026-03-22 20:19:48,849: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:48,849: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,852: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,855: root: INFO: Current backtesting datetime 2026-01-26 08:30:00-05:00
+2026-03-22 20:19:48,856: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:48,856: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,859: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:48,862: root: INFO: Current backtesting datetime 2026-01-26 09:30:00-05:00
+2026-03-22 20:19:48,863: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:48,864: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:48[0m
+2026-03-22 20:19:49,088: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,088: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,091: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,094: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:49,095: root: INFO: Current backtesting datetime 2026-01-26 16:00:00-05:00
+2026-03-22 20:19:49,095: root: INFO: Current backtesting datetime 2026-01-27 09:30:00-05:00
+2026-03-22 20:19:49,096: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,302: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,302: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,305: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,308: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:49,309: root: INFO: Current backtesting datetime 2026-01-27 16:00:00-05:00
+2026-03-22 20:19:49,309: root: INFO: Current backtesting datetime 2026-01-28 09:30:00-05:00
+2026-03-22 20:19:49,310: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,570: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,570: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,573: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,576: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:49,577: root: INFO: Current backtesting datetime 2026-01-28 16:00:00-05:00
+2026-03-22 20:19:49,577: root: INFO: Current backtesting datetime 2026-01-29 09:30:00-05:00
+2026-03-22 20:19:49,577: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,849: root: WARNING: Strategy MLTrader: sell all
+2026-03-22 20:19:49,850: root: INFO: stop order of | 194 AAPL buy | at price $283.69 with status unprocessed was canceled.
+2026-03-22 20:19:49,853: root: INFO: limit order of | 194 AAPL buy | at price $180.52999999999997 with status unprocessed was canceled.
+2026-03-22 20:19:49,856: root: INFO: [32mNew market order of | 194.0 AAPL buy | with status unprocessed was submitted.[0m
+2026-03-22 20:19:49,857: root: INFO: [32mNew market order of | 291 AAPL buy | at price $335.40000000000003 of class bracket with status unprocessed was submitted.[0m
+2026-03-22 20:19:49,859: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:49,859: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,862: root: INFO: [32mFilled Transaction: buy 194.0 of AAPL at 258.00000000 USD per share[0m
+2026-03-22 20:19:49,862: root: INFO: market order of | 194.0 AAPL buy | with status new was filled
+2026-03-22 20:19:49,862: root: INFO: Position 0.000000 shares of AAPL liquidated
+2026-03-22 20:19:49,864: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:49,867: root: INFO: market order of | 291 AAPL buy | at price $335.40000000000003 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:49,867: root: INFO: market order of | 291 AAPL buy | at price $335.40000000000003 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:49,867: root: INFO: [32mFilled Transaction: buy 291 of AAPL at 258.00000000 USD per share[0m
+2026-03-22 20:19:49,867: root: INFO: market order of | 291 AAPL buy | at price $335.40000000000003 of class bracket with status new was filled
+2026-03-22 20:19:49,869: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:49,870: root: INFO: Current backtesting datetime 2026-01-29 16:00:00-05:00
+2026-03-22 20:19:49,870: root: INFO: Current backtesting datetime 2026-01-30 09:30:00-05:00
+2026-03-22 20:19:49,871: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:49[0m
+2026-03-22 20:19:50,211: root: INFO: [32mNew market order of | 49 AAPL buy | at price $331.7145 of class bracket with status unprocessed was submitted.[0m
+2026-03-22 20:19:50,214: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:50,214: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,218: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,220: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,223: root: INFO: market order of | 49 AAPL buy | at price $331.7145 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:50,223: root: INFO: market order of | 49 AAPL buy | at price $331.7145 of class bracket with status new was sent to broker backtesting
+2026-03-22 20:19:50,223: root: INFO: [32mFilled Transaction: buy 49 of AAPL at 255.16500000 USD per share[0m
+2026-03-22 20:19:50,223: root: INFO: market order of | 49 AAPL buy | at price $331.7145 of class bracket with status new was filled
+2026-03-22 20:19:50,226: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:50,226: root: INFO: Current backtesting datetime 2026-01-30 16:00:00-05:00
+2026-03-22 20:19:50,227: root: INFO: Current backtesting datetime 2026-01-31 09:30:00-05:00
+2026-03-22 20:19:50,227: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:50,227: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,230: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,233: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,236: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,238: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,241: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,244: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,249: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,253: root: INFO: Current backtesting datetime 2026-01-31 09:29:00-05:00
+2026-03-22 20:19:50,254: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,257: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,260: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,263: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,268: root: INFO: Current backtesting datetime 2026-01-31 09:29:00-05:00
+2026-03-22 20:19:50,268: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:50,268: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,272: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,275: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,281: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,286: root: INFO: Current backtesting datetime 2026-02-02 08:30:00-05:00
+2026-03-22 20:19:50,286: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:50,287: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,289: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,293: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,296: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,300: root: INFO: Current backtesting datetime 2026-02-02 09:30:00-05:00
+2026-03-22 20:19:50,300: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:50,301: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:50,581: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:50,582: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,585: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,588: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,590: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,593: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:50,594: root: INFO: Current backtesting datetime 2026-02-02 16:00:00-05:00
+2026-03-22 20:19:50,594: root: INFO: Current backtesting datetime 2026-02-03 09:30:00-05:00
+2026-03-22 20:19:50,595: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:50,859: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:50,859: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,862: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,864: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,867: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:50,870: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:50,871: root: INFO: Current backtesting datetime 2026-02-03 16:00:00-05:00
+2026-03-22 20:19:50,871: root: INFO: Current backtesting datetime 2026-02-04 09:30:00-05:00
+2026-03-22 20:19:50,872: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:50[0m
+2026-03-22 20:19:51,124: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,124: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,127: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,129: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,131: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,134: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:51,135: root: INFO: Current backtesting datetime 2026-02-04 16:00:00-05:00
+2026-03-22 20:19:51,135: root: INFO: Current backtesting datetime 2026-02-05 09:30:00-05:00
+2026-03-22 20:19:51,135: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,362: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,363: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,366: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,368: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,370: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,373: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:51,373: root: INFO: Current backtesting datetime 2026-02-05 16:00:00-05:00
+2026-03-22 20:19:51,374: root: INFO: Current backtesting datetime 2026-02-06 09:30:00-05:00
+2026-03-22 20:19:51,374: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,598: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,598: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,602: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,605: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,608: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,611: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:51,612: root: INFO: Current backtesting datetime 2026-02-06 16:00:00-05:00
+2026-03-22 20:19:51,612: root: INFO: Current backtesting datetime 2026-02-07 09:30:00-05:00
+2026-03-22 20:19:51,613: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:51,613: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,616: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,618: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,621: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,623: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,626: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,628: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,631: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,637: root: INFO: Current backtesting datetime 2026-02-07 09:29:00-05:00
+2026-03-22 20:19:51,638: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,642: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,645: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,649: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,655: root: INFO: Current backtesting datetime 2026-02-07 09:29:00-05:00
+2026-03-22 20:19:51,655: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:51,656: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,658: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,662: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,667: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,671: root: INFO: Current backtesting datetime 2026-02-09 08:30:00-05:00
+2026-03-22 20:19:51,672: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:51,672: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,675: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,679: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,682: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,687: root: INFO: Current backtesting datetime 2026-02-09 09:30:00-05:00
+2026-03-22 20:19:51,687: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:51,688: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,937: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:51,938: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,941: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,944: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,946: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:51,949: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:51,949: root: INFO: Current backtesting datetime 2026-02-09 16:00:00-05:00
+2026-03-22 20:19:51,950: root: INFO: Current backtesting datetime 2026-02-10 09:30:00-05:00
+2026-03-22 20:19:51,950: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:51[0m
+2026-03-22 20:19:52,203: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,203: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,206: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,208: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,210: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,213: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:52,214: root: INFO: Current backtesting datetime 2026-02-10 16:00:00-05:00
+2026-03-22 20:19:52,214: root: INFO: Current backtesting datetime 2026-02-11 09:30:00-05:00
+2026-03-22 20:19:52,215: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,403: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,404: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,407: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,409: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,411: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,413: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:52,414: root: INFO: Current backtesting datetime 2026-02-11 16:00:00-05:00
+2026-03-22 20:19:52,414: root: INFO: Current backtesting datetime 2026-02-12 09:30:00-05:00
+2026-03-22 20:19:52,415: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,634: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,635: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,639: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,642: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,644: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,648: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:52,648: root: INFO: Current backtesting datetime 2026-02-12 16:00:00-05:00
+2026-03-22 20:19:52,649: root: INFO: Current backtesting datetime 2026-02-13 09:30:00-05:00
+2026-03-22 20:19:52,649: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,872: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:52,872: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,875: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,878: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,880: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,882: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:52,883: root: INFO: Current backtesting datetime 2026-02-13 16:00:00-05:00
+2026-03-22 20:19:52,883: root: INFO: Current backtesting datetime 2026-02-14 09:30:00-05:00
+2026-03-22 20:19:52,884: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:52,884: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,887: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,890: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,892: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,894: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,897: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,900: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,904: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,907: root: INFO: Current backtesting datetime 2026-02-14 09:29:00-05:00
+2026-03-22 20:19:52,907: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,910: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,912: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,915: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,919: root: INFO: Current backtesting datetime 2026-02-14 09:29:00-05:00
+2026-03-22 20:19:52,919: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:52,919: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,923: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,926: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,928: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,932: root: INFO: Current backtesting datetime 2026-02-17 08:30:00-05:00
+2026-03-22 20:19:52,934: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:52,934: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,937: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,940: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,942: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:52,945: root: INFO: Current backtesting datetime 2026-02-17 09:30:00-05:00
+2026-03-22 20:19:52,945: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:52,947: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:52[0m
+2026-03-22 20:19:53,091: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,091: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,094: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,096: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,098: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,101: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:53,102: root: INFO: Current backtesting datetime 2026-02-17 16:00:00-05:00
+2026-03-22 20:19:53,102: root: INFO: Current backtesting datetime 2026-02-18 09:30:00-05:00
+2026-03-22 20:19:53,103: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,302: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,303: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,306: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,308: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,310: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,313: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:53,313: root: INFO: Current backtesting datetime 2026-02-18 16:00:00-05:00
+2026-03-22 20:19:53,313: root: INFO: Current backtesting datetime 2026-02-19 09:30:00-05:00
+2026-03-22 20:19:53,314: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,494: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,494: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,498: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,500: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,502: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,505: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:53,506: root: INFO: Current backtesting datetime 2026-02-19 16:00:00-05:00
+2026-03-22 20:19:53,506: root: INFO: Current backtesting datetime 2026-02-20 09:30:00-05:00
+2026-03-22 20:19:53,506: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,726: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:53,726: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,729: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,731: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,733: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,736: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:53,737: root: INFO: Current backtesting datetime 2026-02-20 16:00:00-05:00
+2026-03-22 20:19:53,737: root: INFO: Current backtesting datetime 2026-02-21 09:30:00-05:00
+2026-03-22 20:19:53,737: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:53,738: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,740: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,743: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,745: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,748: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,750: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,753: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,755: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,761: root: INFO: Current backtesting datetime 2026-02-21 09:29:00-05:00
+2026-03-22 20:19:53,762: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,765: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,768: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,771: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,776: root: INFO: Current backtesting datetime 2026-02-21 09:29:00-05:00
+2026-03-22 20:19:53,776: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:53,776: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,780: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,783: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,787: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,791: root: INFO: Current backtesting datetime 2026-02-23 08:30:00-05:00
+2026-03-22 20:19:53,792: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:53,792: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,795: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,797: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,800: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:53,803: root: INFO: Current backtesting datetime 2026-02-23 09:30:00-05:00
+2026-03-22 20:19:53,804: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:53,805: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:53[0m
+2026-03-22 20:19:54,038: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,038: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,042: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,044: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,046: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,049: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:54,049: root: INFO: Current backtesting datetime 2026-02-23 16:00:00-05:00
+2026-03-22 20:19:54,049: root: INFO: Current backtesting datetime 2026-02-24 09:30:00-05:00
+2026-03-22 20:19:54,050: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,270: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,270: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,273: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,275: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,277: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,279: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:54,280: root: INFO: Current backtesting datetime 2026-02-24 16:00:00-05:00
+2026-03-22 20:19:54,280: root: INFO: Current backtesting datetime 2026-02-25 09:30:00-05:00
+2026-03-22 20:19:54,281: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,560: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,561: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,564: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,567: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,569: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,571: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:54,572: root: INFO: Current backtesting datetime 2026-02-25 16:00:00-05:00
+2026-03-22 20:19:54,572: root: INFO: Current backtesting datetime 2026-02-26 09:30:00-05:00
+2026-03-22 20:19:54,572: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,807: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:54,807: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,810: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,812: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,814: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:54,817: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:54,817: root: INFO: Current backtesting datetime 2026-02-26 16:00:00-05:00
+2026-03-22 20:19:54,818: root: INFO: Current backtesting datetime 2026-02-27 09:30:00-05:00
+2026-03-22 20:19:54,818: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:54[0m
+2026-03-22 20:19:55,061: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,061: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,064: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,066: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,068: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,070: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:55,071: root: INFO: Current backtesting datetime 2026-02-27 16:00:00-05:00
+2026-03-22 20:19:55,071: root: INFO: Current backtesting datetime 2026-02-28 09:30:00-05:00
+2026-03-22 20:19:55,072: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:55,072: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,075: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,078: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,082: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,085: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,087: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,090: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,092: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,096: root: INFO: Current backtesting datetime 2026-02-28 09:29:00-05:00
+2026-03-22 20:19:55,096: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,099: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,102: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,105: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,109: root: INFO: Current backtesting datetime 2026-02-28 09:29:00-05:00
+2026-03-22 20:19:55,109: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:55,109: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,112: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,115: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,118: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,122: root: INFO: Current backtesting datetime 2026-03-02 08:30:00-05:00
+2026-03-22 20:19:55,123: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:55,123: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,127: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,130: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,133: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,137: root: INFO: Current backtesting datetime 2026-03-02 09:30:00-05:00
+2026-03-22 20:19:55,137: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:55,138: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,368: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,369: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,372: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,374: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,376: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,379: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:55,379: root: INFO: Current backtesting datetime 2026-03-02 16:00:00-05:00
+2026-03-22 20:19:55,379: root: INFO: Current backtesting datetime 2026-03-03 09:30:00-05:00
+2026-03-22 20:19:55,381: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,624: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,624: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,627: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,630: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,632: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,635: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:55,636: root: INFO: Current backtesting datetime 2026-03-03 16:00:00-05:00
+2026-03-22 20:19:55,636: root: INFO: Current backtesting datetime 2026-03-04 09:30:00-05:00
+2026-03-22 20:19:55,637: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,875: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:55,876: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,879: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,881: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,883: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:55,886: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:55,886: root: INFO: Current backtesting datetime 2026-03-04 16:00:00-05:00
+2026-03-22 20:19:55,887: root: INFO: Current backtesting datetime 2026-03-05 09:30:00-05:00
+2026-03-22 20:19:55,887: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:55[0m
+2026-03-22 20:19:56,176: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,176: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,179: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,182: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,184: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,186: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:56,187: root: INFO: Current backtesting datetime 2026-03-05 16:00:00-05:00
+2026-03-22 20:19:56,187: root: INFO: Current backtesting datetime 2026-03-06 09:30:00-05:00
+2026-03-22 20:19:56,188: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,384: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,384: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,387: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,390: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,392: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,395: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:56,395: root: INFO: Current backtesting datetime 2026-03-06 16:00:00-05:00
+2026-03-22 20:19:56,395: root: INFO: Current backtesting datetime 2026-03-07 09:30:00-05:00
+2026-03-22 20:19:56,397: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:56,397: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,399: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,401: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,403: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,406: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,409: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,411: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,416: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,420: root: INFO: Current backtesting datetime 2026-03-07 09:29:00-05:00
+2026-03-22 20:19:56,420: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,423: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,426: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,429: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,432: root: INFO: Current backtesting datetime 2026-03-07 09:29:00-05:00
+2026-03-22 20:19:56,432: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:56,433: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,435: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,438: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,440: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,444: root: INFO: Current backtesting datetime 2026-03-09 07:30:00-05:00
+2026-03-22 20:19:56,445: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:56,445: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,448: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,450: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,452: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,455: root: INFO: Current backtesting datetime 2026-03-09 08:30:00-05:00
+2026-03-22 20:19:56,455: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:56,456: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,634: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,634: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,638: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,641: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,644: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,647: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:56,648: root: INFO: Current backtesting datetime 2026-03-09 15:00:00-05:00
+2026-03-22 20:19:56,648: root: INFO: Current backtesting datetime 2026-03-10 08:30:00-05:00
+2026-03-22 20:19:56,649: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,774: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,774: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,777: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,779: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,781: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,784: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:56,785: root: INFO: Current backtesting datetime 2026-03-10 15:00:00-05:00
+2026-03-22 20:19:56,785: root: INFO: Current backtesting datetime 2026-03-11 08:30:00-05:00
+2026-03-22 20:19:56,785: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,982: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:56,982: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,986: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,988: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,990: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:56,993: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:56,993: root: INFO: Current backtesting datetime 2026-03-11 15:00:00-05:00
+2026-03-22 20:19:56,994: root: INFO: Current backtesting datetime 2026-03-12 08:30:00-05:00
+2026-03-22 20:19:56,994: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:56[0m
+2026-03-22 20:19:57,325: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:57[0m
+2026-03-22 20:19:57,325: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,328: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,330: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,333: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,335: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:57,336: root: INFO: Current backtesting datetime 2026-03-12 15:00:00-05:00
+2026-03-22 20:19:57,336: root: INFO: Current backtesting datetime 2026-03-13 08:30:00-05:00
+2026-03-22 20:19:57,336: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:57[0m
+2026-03-22 20:19:57,702: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:57[0m
+2026-03-22 20:19:57,702: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,705: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,708: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,710: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,713: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:57,713: root: INFO: Current backtesting datetime 2026-03-13 15:00:00-05:00
+2026-03-22 20:19:57,713: root: INFO: Current backtesting datetime 2026-03-14 08:30:00-05:00
+2026-03-22 20:19:57,714: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2026-03-22 20:19:57,714: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,717: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,719: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,721: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,724: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,727: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,729: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,731: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,735: root: INFO: Current backtesting datetime 2026-03-14 08:29:00-05:00
+2026-03-22 20:19:57,735: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,738: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,740: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,745: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,749: root: INFO: Current backtesting datetime 2026-03-14 08:29:00-05:00
+2026-03-22 20:19:57,749: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:57,749: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,752: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,755: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,759: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,763: root: INFO: Current backtesting datetime 2026-03-16 07:30:00-05:00
+2026-03-22 20:19:57,763: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 20:19:57,763: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,766: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,768: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,771: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,774: root: INFO: Current backtesting datetime 2026-03-16 08:30:00-05:00
+2026-03-22 20:19:57,774: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 20:19:57,775: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 20:19:57[0m
+2026-03-22 20:19:57,956: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 20:19:57[0m
+2026-03-22 20:19:57,956: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,958: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,960: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,962: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,965: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 20:19:57,966: root: INFO: Current backtesting datetime 2026-03-16 15:00:00-05:00
+2026-03-22 20:19:57,966: root: INFO: Current backtesting datetime 2026-03-17 08:30:00-05:00
+2026-03-22 20:19:57,966: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,968: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,971: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,973: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,975: root: INFO: Current backtesting datetime 2026-03-17 14:59:00-05:00
+2026-03-22 20:19:57,976: root: INFO: MLTrader : Executing the before_market_closes lifecycle method
+2026-03-22 20:19:57,976: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,978: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,980: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,982: root: INFO: Getting historical prices for AAPL, 2 bars, minute
+2026-03-22 20:19:57,985: root: INFO: Current backtesting datetime 2026-03-17 15:00:00-05:00
+2026-03-22 20:19:57,985: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2026-03-22 20:19:57,985: root: INFO: MLTrader : Executing the on_strategy_end lifecycle method
+2026-03-22 20:19:58,595: root: INFO: Backtesting finished
+2026-03-22 20:20:09,834: backtest_stats: INFO: Backtest took 0:00:32.545758 for a speed of 0.000

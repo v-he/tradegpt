@@ -1,0 +1,57 @@
+2026-03-22 21:01:38,055: root: INFO: MLTrader : Executing the initialize lifecycle method
+2026-03-22 21:01:38,967: root: INFO: Current backtesting datetime 2024-01-02 08:30:00-05:00
+2026-03-22 21:01:38,968: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2026-03-22 21:01:38,968: root: INFO: Current backtesting datetime 2024-01-02 09:30:00-05:00
+2026-03-22 21:01:38,968: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2026-03-22 21:01:38,970: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 21:01:38[0m
+2026-03-22 21:02:40,055: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\backtesting\polygon_backtesting.py", line 116, in update_pandas_data
+    df = polygon_helper.get_price_data_from_polygon(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\tools\polygon_helper.py", line 117, in get_price_data_from_polygon
+    result = polygon_client.get_aggs(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\aggs.py", line 93, in get_aggs
+    return self._get(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\base.py", line 129, in _get
+    raise BadResponse(resp.data.decode("utf-8"))
+polygon.exceptions.BadResponse: {"status":"NOT_AUTHORIZED","request_id":"7cdde49e98f77d513e74e89814a2eb98","message":"Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"}
+
+2026-03-22 21:02:40,059: __main__: WARNING: No last price available for AAPL (data provider returned None)
+2026-03-22 21:02:40,060: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 21:02:40[0m
+2026-03-22 21:02:40,061: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 21:02:40,062: root: INFO: Current backtesting datetime 2024-01-02 16:00:00-05:00
+2026-03-22 21:02:40,062: root: INFO: Current backtesting datetime 2024-01-03 09:30:00-05:00
+2026-03-22 21:02:40,062: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 21:02:40[0m
+2026-03-22 21:02:40,872: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\backtesting\polygon_backtesting.py", line 116, in update_pandas_data
+    df = polygon_helper.get_price_data_from_polygon(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\tools\polygon_helper.py", line 117, in get_price_data_from_polygon
+    result = polygon_client.get_aggs(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\aggs.py", line 93, in get_aggs
+    return self._get(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\base.py", line 129, in _get
+    raise BadResponse(resp.data.decode("utf-8"))
+polygon.exceptions.BadResponse: {"status":"NOT_AUTHORIZED","request_id":"d999f2931bcd6017bdab1f9dccfc58ee","message":"Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"}
+
+2026-03-22 21:02:40,876: __main__: WARNING: No last price available for AAPL (data provider returned None)
+2026-03-22 21:02:40,876: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 21:02:40[0m
+2026-03-22 21:02:40,877: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 21:02:40,878: root: INFO: Current backtesting datetime 2024-01-03 16:00:00-05:00
+2026-03-22 21:02:40,878: root: INFO: Current backtesting datetime 2024-01-04 09:30:00-05:00
+2026-03-22 21:02:40,878: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 21:02:40[0m
+2026-03-22 21:02:41,395: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\backtesting\polygon_backtesting.py", line 116, in update_pandas_data
+    df = polygon_helper.get_price_data_from_polygon(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\lumibot\tools\polygon_helper.py", line 117, in get_price_data_from_polygon
+    result = polygon_client.get_aggs(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\aggs.py", line 93, in get_aggs
+    return self._get(
+  File "C:\Users\victo\miniconda3\envs\trader\lib\site-packages\polygon\rest\base.py", line 129, in _get
+    raise BadResponse(resp.data.decode("utf-8"))
+polygon.exceptions.BadResponse: {"status":"NOT_AUTHORIZED","request_id":"7b605371636a74cb4bf2cfea03f77c3f","message":"Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"}
+
+2026-03-22 21:02:41,400: __main__: WARNING: No last price available for AAPL (data provider returned None)
+2026-03-22 21:02:41,400: root: INFO: [34mMLTrader : Trading iteration ended at 2026-03-22 21:02:41[0m
+2026-03-22 21:02:41,401: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2026-03-22 21:02:41,402: root: INFO: Current backtesting datetime 2024-01-04 16:00:00-05:00
+2026-03-22 21:02:41,402: root: INFO: Current backtesting datetime 2024-01-05 09:30:00-05:00
+2026-03-22 21:02:41,403: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2026-03-22 21:02:41[0m

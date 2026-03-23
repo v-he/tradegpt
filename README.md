@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ### Configure Alpaca & Polygon credentials (PowerShell)
 
-This project reads credentials from environment variables (do **not** hard-code keys in source).
+This project reads credentials from environment variables.
 
 ```powershell
 $env:ALPACA_API_KEY = "YOUR_ALPACA_KEY"
@@ -75,4 +75,3 @@ python tradingbot.py
 ### Notes
 - `finbert_utils.py` loads a DeBERTa sentiment model from Hugging Face; the first run may download model weights.
 - If you want the environment variables to persist across new terminals, set them in Windows “Environment Variables” or your PowerShell profile.
-- The bot does **not** currently learn or retrain itself; it uses a fixed FinBERT model and rule‑based logic. Tune parameters in `tradingbot.py` (e.g. `cash_at_risk`, take‑profit/stop‑loss levels, sentiment threshold) to change behavior.

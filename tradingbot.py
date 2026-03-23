@@ -166,8 +166,8 @@ class MLTrader(Strategy):
 
 def run_backtest() -> None:
     """Run a simple backtest for the MLTrader strategy."""
-    start_date = datetime(2026, 1, 1)
-    end_date = datetime(2026, 3, 17)
+    start_date = datetime(2024, 1, 1)
+    end_date = datetime(2026, 1, 1)
 
     broker = Alpaca(ALPACA_CREDS)
     strategy = MLTrader(

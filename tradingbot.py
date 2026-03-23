@@ -4,7 +4,6 @@ import logging
 import os
 from datetime import datetime
 from typing import Optional, Tuple
-
 from alpaca_trade_api import REST
 from lumibot.backtesting import PolygonDataBacktesting
 from lumibot.brokers import Alpaca

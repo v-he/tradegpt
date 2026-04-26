@@ -14,6 +14,7 @@ conda activate trader
 ```bash
 pip install -r requirements.txt
 ```
+If your computer supports CUDA, install correct version of pytorch from their website
 
 ### Configure Alpaca & Polygon credentials (PowerShell)
 

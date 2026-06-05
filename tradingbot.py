@@ -11,7 +11,7 @@ from lumibot.strategies.strategy import Strategy
 from lumibot.traders import Trader
 from timedelta import Timedelta
 
-from finbert_utils import estimate_sentiment
+from findebert_utils import estimate_sentiment
 
 logger = logging.getLogger(__name__)
 
